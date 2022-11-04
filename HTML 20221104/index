@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Ejercicio 2 → Creando bloques separados</title>
+	</head>
+	<body>
+		<div>
+      <h1>Ejercicio 2</h1>
+      <h2>Listado</h2>
+        <ul>
+          <li>Primer bloque</li>
+          <li>Segundo bloque</li>
+        </ul>
+      <h3>Primer bloque</h3>
+        <p>Párrafo del primer bloque</p>
+        <p>Segundo párrafo del primer bloque</p>
+      <h3>Segundo bloque</h3>
+        <p>Párrafo del segundo bloque</p>
+        <p>Segundo párrafo del segundo bloque</p>
+    </div>
+    <h1>Formulario de contacto</h1>
+    <form action="/">
+    <label for="nombre">
+      <p>¿Cómo te llamas?</p>
+      <input name="nombre" type="text" placeholder="Juan">
+    </label>
+    <label for="ciudad">
+      <p>¿En qué ciudad vives?</p>
+      <input name="ciudad" type="text" placeholder="Madrid">
+    </label>
+    <label for="edad">
+      <p>¿Cuál es tu edad?</p>
+      <input name="edad" type="number" placeholder="33">
+    </label>
+    <br><br>
+    <input type="submit" value="Enviar"></input>
+  </form>
+	</body>
+</html>
